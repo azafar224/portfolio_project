@@ -1,4 +1,9 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
   width: 375px;
   height: 604px;
   display: block;
@@ -10,14 +15,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 .logo {
   height: 40px;
   width: 100px;
   padding-top: 4px;
   padding-left: 12px;
+  padding: 10px, 12px, 10px, 12px;
 }
-
 .mylogo {
   font-family: poppins, sans-serif;
   font-weight: 700;
@@ -33,9 +37,8 @@ header {
   padding-top: 10px;
   padding-right: 20px;
 }
-
 .headliner {
-  background-image: url(/Assets/header-shapes\ mobile@2x.png);
+  background-image: url(./Assets/header-shapes\ mobile@2x.png);
   width: 375px;
   height: 604px;
   background-repeat: no-repeat;
@@ -75,7 +78,16 @@ header {
   height: 20px;
   gap: 16px;
 }
-
+.p21 {
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  width: 127px;
+  height: 20px;
+  gap: 16px;
+}
 .socialmedialogos {
   width: 170.17px;
   height: 50px;
@@ -103,34 +115,33 @@ header {
   gap: 12px;
   border: 1px solid #dfe1e6;
 }
-
 .row-two {
   width: 327px;
   height: 552px;
   padding: 16px;
   border-radius: 16px;
+  border: 5px;
   gap: 12px;
   border: 1px solid #dfe1e6;
 }
-
 .row-three {
   width: 327px;
   height: 552px;
   padding: 16px;
   border-radius: 16px;
+  border: 1px;
   gap: 12px;
   border: 1px solid #dfe1e6;
 }
-
 .row-four {
   width: 327px;
   height: 552px;
   padding: 16px;
   border-radius: 16px;
+  border: 1px;
   gap: 12px;
   border: 1px solid #dfe1e6;
 }
-
 .portfolio_image {
   width: 322px;
   height: 220px;
@@ -138,7 +149,6 @@ header {
   padding: 5px;
   padding-left: 2px;
 }
-
 .t1 {
   font-family: poppins, sans-serif;
   font-size: 32px;
@@ -147,7 +157,6 @@ header {
   margin-top: 6px;
   color: #172b4d;
 }
-
 .list1 {
   display: flex;
   font-family: poppins, sans-serif;
@@ -161,13 +170,11 @@ header {
   padding-left: 1px;
   color: #7a869a;
 }
-
 .Canopy {
-  font-weight: 700;
+  font: weight 700px;
   list-style-type: none;
   color: #344563;
 }
-
 .para1 {
   font-family: poppins, sans-serif;
   font-size: 20px;
@@ -188,14 +195,12 @@ header {
   height: 32px;
   margin-left: -35px;
 }
-
 .language {
   border-radius: 5px;
   background-color: #ebebff;
   padding: 5px;
   padding-top: 7px;
 }
-
 .bt1 {
   width: 126px;
   height: 48px;
@@ -220,7 +225,6 @@ header {
   background-size: cover;
   border-top-right-radius: 80px;
 }
-
 .aboutMyselftext {
   width: 352px;
   height: 49px;
@@ -230,7 +234,6 @@ header {
   line-height: 42px;
   color: #172b4d;
 }
-
 .aboutMyselflinertext {
   width: 338px;
   height: 160px;
@@ -240,7 +243,6 @@ header {
   line-height: 28px;
   color: #172b4d;
 }
-
 .bt2 {
   width: 170px;
   height: 48px;
@@ -257,13 +259,11 @@ header {
   color: #6070ff;
   background-color: #ffff;
 }
-
 .skills {
   width: 327px;
   height: 72px;
   padding-top: 20px;
 }
-
 .langu1 {
   display: flex;
   justify-content: space-between;
@@ -271,24 +271,21 @@ header {
   height: 72px;
   margin-top: 20px;
 }
-
 .Union {
   width: 12px;
   height: 6px;
   padding-top: 32px;
   padding-right: 10px;
 }
-
 .l3 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0;
+  letter-spacing: 0em;
   text-align: left;
   padding-left: 10px;
 }
-
 .codinglanguages {
   width: 327px;
   height: 72px;
@@ -300,42 +297,39 @@ header {
   border-radius: 10px;
   padding-bottom: 10px;
 }
-
 .codingtext {
   font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0;
+  letter-spacing: 0em;
   text-align: left;
   padding-top: 11px;
   padding-left: 25px;
 }
 
 .forms {
-  width: 375px;
+  width: 400px;
   height: 700px;
   padding-top: 50px;
 }
-
-#Contactform {
-  width: 375px;
+.Contactform {
+  width: 400px;
   height: 700px;
   border-top-left-radius: 80px;
   padding-top: 65px;
   background-color: #6070ff;
-  background-image: url(/portfolio/Assets/contact\ form\ shapes-mobile.png);
+  background-image: url(./Assets/contact\ form\ shapes-mobile.png);
+  background-repeat: no-repeat;
 }
-
 .contactheader {
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
-
 .contacttext {
   font-family: Poppins, sans-serif;
   font-size: 20px;
@@ -347,32 +341,30 @@ header {
   height: 137px;
   padding-left: 30px;
 }
-
 .input1 {
   width: 327px;
   height: 48px;
   border-radius: 5px;
   margin-left: 20px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppons, sans-serif;
   border: solid 1px #ffff;
   margin-top: 10px;
+  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
   padding-left: 3px;
 }
-
-#input2 {
+.input2 {
   width: 327px;
   height: 170px;
   border-radius: 5px;
   margin-left: 20px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppons, sans-serif;
   border: solid 1px #ffff;
   margin-top: 10px;
   color: #b3bac5;
 }
-
 .bt3 {
   width: 170px;
   height: 48px;
@@ -380,7 +372,7 @@ header {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  font-family: Poppins, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -390,4 +382,172 @@ header {
   background-color: #ffff;
   margin-top: 10px;
   margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  }
+  header {
+    width: auto;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .headliner {
+    width: auto;
+    height: 750px;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 80px;
+  }
+  .headlinertext {
+    width: auto;
+    height: 65px;
+    padding-left: 250px;
+    padding-top: 150px;
+  }
+  .text5 {
+    width: auto;
+    height: 100px;
+    padding-left: 250px;
+  }
+  .text1 {
+    width: 750px;
+  }
+  .p2 {
+    padding-left: 250px;
+  }
+  .scmedialogo {
+    padding-left: 250px;
+  }
+  .MainSection {
+    width: auto;
+    height: 2700px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding-top: 100px;
+  }
+  .itemcard {
+    display: flex;
+  }
+  .row-one {
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: 496px;
+    background-color: #ffffff;
+  }
+  .portfolio_image {
+    width: auto;
+    height: 448px;
+  }
+  .itemcontent {
+    width: auto;
+    height: 448px;
+    padding-left: 30px;
+    padding-top: 75px;
+  }
+
+  .row-two {
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: 496px;
+    background-color: #ffffff;
+  }
+  .row-three {
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: 496px;
+    background-color: #ffffff;
+  }
+  .row-four {
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: 496px;
+    background-color: #ffffff;
+  }
+  .itemcard2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .aboutUS {
+    width: auto;
+    display: flex;
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 200px;
+  }
+  .about {
+    width: 500px;
+    height: 455px;
+    padding-top: 15px;
+  }
+  .aboutMyselftext {
+    height: 20px;
+  }
+  .aboutMyselflinertext {
+    width: 500px;
+    height: 160px;
+  }
+
+  .skills {
+    width: 500px;
+    height: 455px;
+  }
+  .JS {
+    display: flex;
+    justify-content: space-around;
+  }
+  .codinglanguages {
+    display: flex;
+    width: 122px;
+    height: 120px;
+    flex-direction: column;
+    background-color: #f7f7f9;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 5px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .langu1 {
+    padding-left: 10px;
+    display: flex;
+    width: auto;
+  }
+  .forms {
+    width: auto;
+    height: 900px;
+  }
+  .Contactform {
+    width: auto;
+    height: 1000px;
+    padding-top: 100px;
+    border-top-left-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacttext {
+    width: 462px;
+    margin-top: 0px;
+  }
+  .input1 {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .input2 {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .bt3 {
+    margin-top: 40px;
+  }
 }
