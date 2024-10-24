@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <!-- JavaScript Link -->
   </head>
   <body>
     <main>
@@ -13,11 +15,26 @@
           <h1 class="mylogo">My Logo</h1>
         </div>
         <img
+          id="hamburger-icon"
           class="imagemenuicon"
-          src="Assets\Icon - Menu.png"
+          src="Assets/Icon - Menu.png"
           alt="menu icon"
         />
       </header>
+
+      <!-- Mobile Menu (Initially Hidden) -->
+      <nav id="mobile-menu" class="mobile-menu">
+        <ul>
+          <li><a href="#home" class="menu-link">Home</a></li>
+          <li><a href="#about" class="menu-link">About</a></li>
+          <li><a href="#projects" class="menu-link">Projects</a></li>
+          <li><a href="#contact" class="menu-link">Contact</a></li>
+          <li id="close-menu">
+            <img src="Assets/Enabled.png" alt="Close menu" class="close-icon" />
+            <!-- Close Icon -->
+          </li>
+        </ul>
+      </nav>
 
       <section class="headliner">
         <h2 class="headlinertext">
@@ -33,18 +50,18 @@
           </p>
         </div>
         <p class="p2">LET'S CONNECT</p>
-        <div class="scmedialogo">
-          <ul class="socialmedialogos">
+        <div class="social">
+          <ul class="sc">
             <li><img src="Assets/Vector-1.png" alt="logo" /></li>
             <li><img src="Assets/Vector.png" alt="logo" /></li>
             <li><img src="Assets/Linkedin icon.png" alt="logo" /></li>
-            <li><img src="Assets/G.png" alt="logo" /></li>
-            <li><img src="Assets/T.png" alt="logo" /></li>
+            <li><img src="Assets/Github.png" alt="logo" /></li>
+            <li><img src="Assets/Twitter.png" alt="logo" /></li>
           </ul>
         </div>
       </section>
 
-      <section class="MainSection">
+      <section class="main">
         <div class="row-one">
           <div class="itemcard">
             <img
@@ -167,13 +184,13 @@
             </p>
           </div>
           <p class="p21">LET'S CONNECT</p>
-          <div class="scmedialogo2">
-            <ul class="socialmedialogos">
+          <div class="social2">
+            <ul class="sc">
               <li><img src="Assets/Vector-1.png" alt="logo" /></li>
               <li><img src="Assets/Vector.png" alt="logo" /></li>
               <li><img src="Assets/Linkedin icon.png" alt="logo" /></li>
-              <li><img src="Assets/G.png" alt="logo" /></li>
-              <li><img src="Assets/T.png" alt="logo" /></li>
+              <li><img src="Assets/Github.png" alt="logo" /></li>
+              <li><img src="Assets/Twitter.png" alt="logo" /></li>
             </ul>
           </div>
           <button class="bt2">Get my resume</button>
@@ -181,7 +198,11 @@
         <div class="skills">
           <div class="langu1">
             <p class="l3">Languages</p>
-            <img src="Assets/Union.png" alt="Union" class="Union" />
+            <img
+              src="Assets/Icon - Chevron - Right - Larger.png"
+              alt="Union"
+              class="Union"
+            />
           </div>
           <div class="JS">
             <div class="codinglanguages">
@@ -199,12 +220,20 @@
           </div>
           <div class="langu1">
             <p class="l3">Framework</p>
-            <img src="Assets/Union.png" alt="Union" class="Union" />
+            <img
+              src="Assets/Icon - Chevron - Right - Larger.png"
+              alt="Union"
+              class="Union"
+            />
           </div>
           <div><hr /></div>
           <div class="langu1">
             <p class="l3">Skills</p>
-            <img src="Assets/Union.png" alt="Union" class="Union" />
+            <img
+              src="Assets/Icon - Chevron - Right - Larger.png"
+              alt="Union"
+              class="Union"
+            />
           </div>
           <div><hr /></div>
         </div>
